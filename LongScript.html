@@ -1,0 +1,59 @@
+// JS in head
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Try It Yourself </title>
+
+  <script type="text/javascript">
+    function myFunc() {
+      document.getElementById("demo").innerHTML = "Hello Everyone!";
+    }
+  </script>
+</head>
+<body>
+  <p id="demo"> Hello World! </p>
+  <button type="button" onclick="myFunc()"> Change Value </button>
+</body>
+</html>
+
+
+// JS in body
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Try It Yourself </title>
+</head>
+<body>
+  <p id="demo"> Hello World! </p>
+  <button type="button" onclick="myFunc()"> Change Value </button>
+
+  <script type="text/javascript">
+    function myFunc() {
+      document.getElementById("demo").innerHTML = "Hello Everyone!";
+    }
+  </script>
+</body>
+</html>
+
+
+// JS in another file
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Try It Yourself </title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <p id="demo"> Hello World! </p>
+  <button type="button" onclick="myFunc()"> Change Value </button>
+</body>
+</html>
+
+// script.js
+
+function myFunc() {
+      document.getElementById("demo").innerHTML = "Hello Everyone!";
+
