@@ -1,6 +1,6 @@
 // Long script begins
 
-// 
+// String to two
 
 const myString = 'Hello Javascript';
 
