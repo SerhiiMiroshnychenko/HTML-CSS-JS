@@ -31,8 +31,3 @@ console.log(evenStr);
 
 const oddStr = strOdd(myString);
 console.log(oddStr);
-
-
-
-
-
